@@ -9,7 +9,10 @@ class Solution
     : Bool
     {
         
-        return match ( root )
+        return match
+        (
+            root
+        )
         {
             case Some ( node ) =>
                 node.val
